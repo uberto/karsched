@@ -6,7 +6,7 @@
 *.exe
 *.o
 *.so
-target/*
+target/
 
 # Packages #
 ############
@@ -41,4 +41,4 @@ Thumbs.db
 # IDE generated files #
 ######################
 *.iws
-.idea/*
+.idea/
