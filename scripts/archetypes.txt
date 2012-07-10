@@ -1,0 +1,65 @@
+mvn archetype:generate \
+-DarchetypeGroupId=org.apache.karaf.archetypes \
+-DarchetypeArtifactId=karaf-bundle-archetype \
+-DarchetypeVersion=2.2.8 \
+-DgroupId=com.gama-soft.karsched \
+-DartifactId=rest \
+-Dversion=1.0-SNAPSHOT \
+-Dpackage=com.gama-soft.karsched.rest
+
+mvn archetype:generate \
+-DarchetypeGroupId=org.apache.karaf.archetypes \
+-DarchetypeArtifactId=karaf-bundle-archetype \
+-DarchetypeVersion=2.2.8 \
+-DgroupId=com.gama-soft.karsched \
+-DartifactId=rest-frontend \
+-Dversion=1.0-SNAPSHOT \
+-Dpackage=com.gama-soft.karsched.rest
+
+mvn archetype:generate \
+-DarchetypeGroupId=org.apache.karaf.archetypes \
+-DarchetypeArtifactId=karaf-bundle-archetype \
+-DarchetypeVersion=2.2.8 \
+-DgroupId=com.gama-soft.karsched \
+-DartifactId=frontend-spec \
+-Dversion=1.0-SNAPSHOT \
+-Dpackage=com.gama-soft.karsched.frontend
+
+mvn archetype:generate \
+-DarchetypeGroupId=org.apache.karaf.archetypes \
+-DarchetypeArtifactId=karaf-bundle-archetype \
+-DarchetypeVersion=2.2.8 \
+-DgroupId=com.gama-soft.karsched \
+-DartifactId=scheduler \
+-Dversion=1.0-SNAPSHOT \
+-Dpackage=com.gama-soft.karsched.scheduler
+
+
+
+
+
+mvn archetype:generate \
+-DarchetypeGroupId=org.apache.karaf.archetypes \
+-DarchetypeArtifactId=karaf-kar-archetype \
+-DarchetypeVersion=2.2.8 \
+-DgroupId=com.gama-soft.karsched \
+-DartifactId=kar \
+-Dversion=1.0-SNAPSHOT \
+-Dpackage=com.gama-soft.karsched.kar
+	
+	
+	
+	
+
+mvn archetype:generate \
+	    -DarchetypeGroupId=org.apache.karaf.archetypes \
+	    -DarchetypeArtifactId=karaf-feature-archetype \
+	    -DarchetypeVersion=2.2.8 \
+	    -DgroupId=com.gama-soft \
+	    -DartifactId=com.gama-soft.karsched.logic \
+	    -Dversion=1.0-SNAPSHOT \
+	    -Dpackage=com.gama-soft.karsched.logic
+	
+
+
+mvn archetype:generate -DarchetypeGroupId=org.apache.karaf.archetypes -DarchetypeArtifactId=karaf-feature-archetype -DarchetypeVersion=2.2.8 -DgroupId=com.gama-soft -DartifactId=com.gama-soft.karsched.logic -Dversion=1.0-SNAPSHOT -Dpackage=com.gama-soft.karsched.logic
